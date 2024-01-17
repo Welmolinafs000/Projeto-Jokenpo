@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JokenPô</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="image-fundo">
+        <img src="./assets/jokenpo-sheldon.png" alt="">
+        <div class="mascara-image"></div>
+    </div>
+
+    <div class="cointener">
+        <h1>Pedra-Papel-Tesoura-Lagarto-Spock</h1>
+        <div class="Buttons">
+            <button onclick="playHuman('rock')" id="rock">&#x1F44A;</button>
+            <button onclick="playHuman('paper')" id="paper">&#x1F590;</button>
+            <button onclick="playHuman('scissor')" id="scissor">&#x270C;</button>
+            <button onclick="playHuman('lizard')" id="lizard">🦎</button>
+            <button onclick="playHuman('spock')" id="spock">&#x1F596;</button>
+        </div>
+
+        <h2></h2>
+
+        <p class="result"></p>
+
+        <p class="my-score">Sua pontuação <span id="human-score">0</span></p>
+        <p class="machine-score">Pontuação da Alexa <span id="machine-score">0</span></p>
+    </div>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
