@@ -19,6 +19,11 @@ Lagarto come papel   <br>
 Papel refuta Spock   <br>
 Spock vaporiza pedra   <br>
 Pedra amassa tesoura</p>
+
+<br>
+<img src="http://i.imgur.com/p9MPH.png">
+<br>
+
 <h3>Tecnologias Utilizadas</h3>
 
 <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" />
